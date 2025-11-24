@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Agente AI - Chiamata Telefonica</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 900px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        
+        .description {
+            color: #555;
+            font-size: 1.2em;
+            line-height: 1.8;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        .video-container {
+            margin-top: 40px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+        }
+        
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .cta {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        
+        .cta p {
+            color: #667eea;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 Demo Agente AI</h1>
+        </div>
+        
+        <div class="description">
+            <p><strong>Scopri come il nostro agente AI gestisce chiamate telefoniche in modo autonomo e intelligente.</strong></p>
+        </div>
+        
+        <div class="description">
+            <p>In questa demo, vedrai una conversazione reale in cui l'AI risponde alle domande del cliente, fornisce informazioni e gestisce la chiamata in modo naturale.</p>
+        </div>
+        
+        <div class="description">
+            <p>Clicca sul video qui sotto per vedere l'agente AI in azione!</p>
+        </div>
+        
+        <div class="video-container">
+            <div class="video-wrapper">
+                <!-- INSERISCI IL TUO LINK LOOM QUI -->
+                <!-- Esempio: sostituisci VIDEO_ID con l'ID del tuo video Loom -->
+                <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+                    <iframe 
+                        src="https://www.loom.com/embed/e080d3982a35423a904d75f6c15da019?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true" 
+                        frameborder="0" 
+                        webkitallowfullscreen 
+                        mozallowfullscreen 
+                        allowfullscreen 
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cta">
+            <p>💡 Questa tecnologia può rivoluzionare il customer service della tua azienda</p>
+        </div>
+    </div>
+</body>
+</html>
